@@ -20,8 +20,8 @@ var twoSum_NN = function (nums, target) {
     }
   }
 }
-console.log(twoSum_NN([1, 2, 4], 6))
 
+// Map求解 时间复杂度O(N) 推荐使用Map
 var twoSum_N = function (nums, target) {
   let map = new Map()
   for (let i = 0; i < nums.length; i++) {
@@ -33,4 +33,6 @@ var twoSum_N = function (nums, target) {
     }
   }
 }
+
+console.log(twoSum_NN([1, 2, 4], 6))
 console.log(twoSum_N([1, 2, 4], 6))
