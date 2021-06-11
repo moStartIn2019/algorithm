@@ -1,4 +1,8 @@
-// 队列思想
+/**
+ * 找出无重复字符的最长子串的长度
+ * 队列思想 push shift
+ * @param {String} s
+ */
 var lengthOfLongestSubstring = function(s) {
   var res = 0,
     i = 0;

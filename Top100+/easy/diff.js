@@ -1,3 +1,8 @@
+/**
+ * 去除数组重复项
+ * @param {Array} arr 
+ * @return {Array}
+ */
 var diff = function (arr) {
   let set = new Set()
   for (let i = 0; i < arr.length; i++) {
